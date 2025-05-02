@@ -10,7 +10,7 @@ echo "RUN  pip install Flask" >> Dockerfile
 
 echo "WORKDIR /home/app" >> Dockerfile
 
-echo "COPY server.py" >> Dockerfile
+echo "COPY server.py ." >> Dockerfile
 
 echo "EXPOSE 5050" >> Dockerfile
 
